@@ -25,3 +25,4 @@ public class D05_DikdörtgenAlanıHesaplama {
     }
 
 }
+
