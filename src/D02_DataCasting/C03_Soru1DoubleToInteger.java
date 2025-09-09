@@ -9,17 +9,18 @@ public class C03_Soru1DoubleToInteger {
         //yazin
 
 
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("lütfen sayı1 giriniz :  ");
-        double sayi1=scanner.nextDouble();
+        double sayi1 = scanner.nextDouble();
         System.out.println("lütfen sayı2 giriniz :  ");
-        double sayi2=scanner.nextDouble();
+        double sayi2 = scanner.nextDouble();
         System.out.println("lütfen sayı3 giriniz :  ");
-        double sayi3=scanner.nextDouble();
+        double sayi3 = scanner.nextDouble();
 
-        int sayiOrtalama= (int) ((sayi1+sayi2+sayi3)/3);
+        int sayiOrtalama = (int) ((sayi1 + sayi2 + sayi3) / 3);
 
-        System.out.println("verilen sayıların ınteger olarak ortalaması :"+sayiOrtalama);
+        System.out.println("verilen sayıların ınteger olarak ortalaması :" + sayiOrtalama);
+
 
     }
 }
