@@ -9,13 +9,22 @@ public class C04_Soru2HarfSonrakiHarf {
 
         Scanner scanner=new Scanner(System.in);
         System.out.println("lütfen bir harf giriniz...");
-        char girilenharf=scanner.nextLine().charAt(0);
+        char girilenHarf=scanner.nextLine().charAt(0);
 
         // girilen harf a , b,c,d
 
-        char sonrakiIlkHarf=(char)(girilenharf+1);
+        char sonrakiIlkHarf=(char)(girilenHarf+1);//b
+        char sonrakiIkinciHarf=(char)(girilenHarf+2);
+        char sonrakiUcuncuHarf=(char)(girilenHarf+3);
 
-        System.out.println("girilen harften sonraki ilk harf "+sonrakiIlkHarf);
+        System.out.println("girilen harften sonraki ilk 3 harf "+sonrakiIlkHarf+" "+sonrakiIkinciHarf+" "+sonrakiUcuncuHarf);
+
+//Kullanicidan bir sayi alin, kullanici kac degerini girerse girsin, o sayiyi -128
+//ile 127 arasindaki bir sayiya donusturup yazdirin.
+
+
+
+
 
 
     }
