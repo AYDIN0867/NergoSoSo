@@ -19,7 +19,7 @@ public class C02_ModulusSoru1 {
         int sayınıninBinlerBasamagi=sayınınIkiBsamaklıHali/10;
 
 
-        System.out.println(birlerBasamagi+onlarBasamagi+yuzlerBasamagi+sayınıninBinlerBasamagi);
+        System.out.println("Verilen Dört basamaklı sayının rakamları toplamı : " +(birlerBasamagi+onlarBasamagi+yuzlerBasamagi+sayınıninBinlerBasamagi));
 
 
 
