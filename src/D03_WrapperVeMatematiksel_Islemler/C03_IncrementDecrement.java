@@ -34,6 +34,29 @@ sayi=sayi+3;
 
         System.out.println(sayi5);
 
+
+        boolean kontrol=true;
+        Boolean kont=false;
+
+        String knt="false";
+        boolean sonuc=Boolean.valueOf(knt);
+
+        char chr='*';
+        Character ch='p';
+        char chr2=101;
+
+        System.out.println(Character.valueOf(chr2));//e
+        System.out.println(Character.isDigit('5'));//true
+        System.out.println(Character.isAlphabetic('9'));//false
+        System.out.println(Character.isAlphabetic('a'));//true
+
+
+
+
+
+
+
+
     }
 
 
