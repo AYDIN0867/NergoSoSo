@@ -1,4 +1,4 @@
-package RelationalOpperators;
+package D04_RelationalOpperators;
 
 public class C01_EsitlikVeEşitDeğildir {
     public static void main(String[] args) {
