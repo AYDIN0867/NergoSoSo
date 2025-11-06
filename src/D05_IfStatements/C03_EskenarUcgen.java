@@ -24,8 +24,6 @@ if(kenar1==kenar2){
         System.out.println("verilen kenar uzunluklarına göre üçgen eşkenardır");
     }
 
-
-
 }System.out.println("verilen kenar uzunluklarına göre üçgen eşkenar DEĞİLDİR");
 
 
