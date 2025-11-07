@@ -7,7 +7,7 @@ public class C07_SoruÇözmeSayaçYontemi {
     public static void main(String[] args) {
 
         //kullanıcıdan iki sayı isteyin
-//girilen sayılara göre asagıdaki degerlendirmeleriyazdırın
+        //girilen sayılara göre asagıdaki degerlendirmeleriyazdırın
         //1-sayi1<sayi2 ise "birinci  sayi daha kucuk"
         //2- sayi1 pozitif ise "birinci sayi sıfırdan buyuk"
         //3- sayi2 50 den buyuk ise "ikinci sayı 50 den buyuk"
