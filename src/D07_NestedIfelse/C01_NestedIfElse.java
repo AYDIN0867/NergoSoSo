@@ -1,4 +1,4 @@
-package NestedIfelse;
+package D07_NestedIfelse;
 
 import java.util.Scanner;
 
