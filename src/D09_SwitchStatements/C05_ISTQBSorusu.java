@@ -12,7 +12,22 @@ public class C05_ISTQBSorusu {
 
         Scanner scanner=new Scanner(System.in);
         System.out.println("ISTQB kısatlmasındaki anlamını istediğiniz harfi belirtiniz....");
-       // char anlamıIstenenHarf=scanner.next()
+        char anlamıIstenenHarf=scanner.next().toUpperCase().charAt(0);
+
+        switch (anlamıIstenenHarf){
+
+            case 'I': System.out.println("International");
+            break;
+            case 'S': System.out.println("Software");
+            break;
+            case 'T': System.out.println("Testing");
+            break;
+            case 'Q': System.out.println("Qualifications");
+            break;
+            case 'B': System.out.println("Board");
+            break;
+            default: System.out.println("Yanlış harf girdiniz....");
+        }
 
 
 
