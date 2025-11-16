@@ -8,7 +8,7 @@ public class C02_IkiBasamklıSayıSoru1 {
         //Soru 2- Kullanicidan 2 basamakli bir sayi alip, girilen sayiyi yazi ile yazdirin
 
         Scanner scanner=new Scanner(System.in);
-        System.out.println("gününü yazmak istediğiniz rakamı girinix");
+        System.out.println("yazı ile yazmak istediğiniz sayıyı giriniz");
         int girilenSayi= scanner.nextInt();
 
         int birlerBasamagi=girilenSayi%10;
