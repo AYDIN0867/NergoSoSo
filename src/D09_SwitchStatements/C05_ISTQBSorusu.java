@@ -29,8 +29,41 @@ public class C05_ISTQBSorusu {
             default: System.out.println("Yanlış harf girdiniz....");
         }
 
+      //  Kullanicidan gun numarasini alip hafta ici veya hafta sonu yazdirin
 
+        int girilenRakam=scanner.nextInt();
 
+        switch (girilenRakam){
+
+            case 1,2,3,4,5: System.out.println("HaftaIci");
+            break;
+            case 6,7: System.out.println("HaftaSonu");
+            break;
+            default: System.out.println("Yanlış numara girdiniz....");
+
+        }
+
+      // Kullanicidan ay numarasini alip mevsimi yazdirin.
+
+        int ayNumarası=scanner.nextInt();
+
+        switch (ayNumarası){
+
+            case 12,1,2 :
+                System.out.println("KIŞ");
+                break;
+            case 3,4,5:
+                System.out.println("ILKBAHAR");
+                break;
+            case 6,7,8:
+                System.out.println("YAZ");
+                break;
+            case 9,10,11:
+                System.out.println("SONBAHAR");
+                break;
+            default:
+                System.out.println("yanlış numara");
+        }
 
 
     }
