@@ -23,6 +23,18 @@ public class C01_char {
         System.out.println(isim.length());//7
         System.out.println(isim.charAt(isim.length() - 1));//n
 
+        // sondan 3. harfi yazidirin
+        //isim=Ramazan
+        //son karateri lenght-1
+        //son length-3
+
+        System.out.println(isim.charAt(isim.length() - 3));//z
+
+        // sondan 5. harfi yazıdırn
+
+        System.out.println(isim.charAt(isim.length() - 5));//m sondan
+        System.out.println(isim.charAt(2));//m baştan
+
 
     }
 }
