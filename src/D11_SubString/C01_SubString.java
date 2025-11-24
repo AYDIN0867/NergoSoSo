@@ -33,6 +33,26 @@ public class C01_SubString {
         // sondan 5.karakterini yazdirin...
         //"Az ye az uyu az konuş"
         System.out.println(str.substring(str.length() - 5,str.length()-4));//k
+        System.out.println(str.charAt(str.length() - 5));//k
+
+        // son 5 karakterini yazdırn
+
+        System.out.println(str.substring(str.length() - 5));//konuş
+
+        // charAt() ve substring() method'lari farkli sonuclar verebilir
+       // lenght 30 , son harfin index i 29
+
+
+        //"Az ye az uyu az konuş"
+        // son karakteri charAt ile yazdirin
+
+        System.out.println(str.charAt(str.length() - 1));//ş
+
+        // son karakteri substring () ile yazdirin
+        System.out.println(str.substring(str.length() - 1));//ş
+
+        // index olarak str.lenght () i, kullanarak
+        // charAt() ve substring 'i kullanalım
 
 
     }
