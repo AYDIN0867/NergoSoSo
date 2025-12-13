@@ -2,7 +2,7 @@ package D11_SubString;
 
 import java.util.Scanner;
 
-public class C04_Substring {
+public class C05_IfElseContainsSoru {
     public static void main(String[] args) {
 
         // kullanicidan bir metin isteyin
@@ -11,33 +11,27 @@ public class C04_Substring {
         // metin hem "ev" hem  "iş" içeriyorsa "Evden çalışmak gibisi yok"
         // metin bu iki kelimeyi de içermiyorsa "Çok çalışmak lazim, çoook" yazdırın
 
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("lütfen bir metin giriniz....");
-        String girilenMetin=scanner.nextLine();
+        String girilenMetin = scanner.nextLine();
 
-        if (!girilenMetin.contains("ev")&&!girilenMetin.contains("iş")){
-
-            System.out.println("Çok çalışmak lazim, çoook");
-        }
-
-
-        if (girilenMetin.contains("iş")&&girilenMetin.contains("ev")){
+        if (girilenMetin.contains("ev") && girilenMetin.contains("iş")) {
 
             System.out.println("Evden çalışmak gibisi yok");
         }
+            else if (girilenMetin.contains("ev")) {
 
-       if (girilenMetin.contains("ev")){
+                System.out.println("Ev gibisi var mi");
 
-            System.out.println("Ev gibisi var mi");
+            } else if (girilenMetin.contains("iş")) {
+
+                System.out.println("Çalışmak ne güzel");
+
+            } else {
+
+                System.out.println("cok calısmak lazım çok");
+            }
+
+
         }
-
-        if (girilenMetin.contains("iş")){
-
-            System.out.println("çalışmak ne güzel");
-        }
-
-
-
-
     }
-}
