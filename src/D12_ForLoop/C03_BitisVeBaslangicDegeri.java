@@ -16,6 +16,7 @@ public class C03_BitisVeBaslangicDegeri {
         System.out.println("lütfen pozitif bir bitis  sayısı giriniz...");
         int bitisDegeri=scanner.nextInt();
         int toplam=0;
+
         if (baslangıcDegeri>bitisDegeri){
 
             System.out.println("basalngıc degeri bitiş degerinrinden buyuk olmaz");
@@ -27,6 +28,7 @@ public class C03_BitisVeBaslangicDegeri {
 
             }
 
+            System.out.println(baslangıcDegeri+" ile "+bitisDegeri+ " arasındaki sayıların toplamı : "+toplam);
         }
 
 
