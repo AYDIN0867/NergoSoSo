@@ -12,32 +12,74 @@ public class C05_FaktoriyelŞekilŞukul {
         Scanner scanner = new Scanner(System.in);
         System.out.println("lütfen pozitif 20 den küçük pozitif bit tamsayı giriniz...");
         int girilenSayi = scanner.nextInt();
-        int carpım = 1;
+
+
 
         if (!(girilenSayi < 20 && girilenSayi > 0)) {
 
             System.out.println("vergiğiniz sayının faktoriyeli yukurıdaki şarta göre hesaplanamaz");
 
-
         } else {
+            int carpım = 1;
+            System.out.print(girilenSayi + "! =");
 
-            for (int i = 1; i <= girilenSayi; i++) {
+            for (int i = girilenSayi; i >= 2; i--) {
 
-                carpım *= i;
+                carpım *=i;
+
+                System.out.print(i+"*");
 
             }
 
-            for (int i = girilenSayi; i <= 1; i--) {
-
-                System.out.println(
-
-                        girilenSayi + "!" + " " + "=" + i
-
-
-                );
-            }
-
-
+            System.out.println("1=" + carpım);
+            //Or : 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720
         }
+
+
+
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        } else {
+//
+//            System.out.print(girilenSayi+"!=");
+//
+//            for (int i = girilenSayi; i >=2; i--) {
+//
+//                carpım*=i;
+//
+//                System.out.print(i+"*");
+//
+//            }
+//
+//            System.out.println("1"+"="+carpım);
+
+
+
+
+
