@@ -25,9 +25,12 @@ public class C05_FaktoriyelŞekilŞukul {
 
             for (int i = girilenSayi; i >= 2; i--) {
 
-                carpım *=i;
 
                 System.out.print(i+"*");
+
+                carpım *=i;
+
+
 
             }
 
