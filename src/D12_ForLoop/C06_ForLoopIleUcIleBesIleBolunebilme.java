@@ -14,7 +14,7 @@ public class C06_ForLoopIleUcIleBesIleBolunebilme {
         //yazdirin
 
         Scanner scanner=new Scanner(System.in);
-        System.out.println("lütfen pozitif bir tmasayı giriniz...");
+        System.out.println("lütfen pozitif bir tamsayı giriniz...");
         int girilenSayı=scanner.nextInt();
 
         for (int i = 1; i <=girilenSayı ; i++) {
