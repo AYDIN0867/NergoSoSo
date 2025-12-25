@@ -8,7 +8,7 @@ public class C07_TerstenYazdırma {
         //Soru 9 (interview)- Kullanicidan bir String isteyin ve String’i tersten yazdirin
 
         Scanner scanner=new Scanner(System.in);
-        System.out.println("lütfen pozitif bir tamsayı giriniz...");
+        System.out.println("lütfen bir metin giriniz...");
         String girilenMetin=scanner.nextLine();
          String tersMetin="";
 
