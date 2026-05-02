@@ -41,5 +41,13 @@ if(basIndex<0||bitIndex<0||basIndex>=girilenİfade.length()||basIndex>=girilenİ
 }
 
 
+String cumle="oynaya oynaya gelin cocuklar...";
+        System.out.println(cumle.toUpperCase());//OYNAYA OYNAYA GELİN COCUKLAR...
+        System.out.println(cumle);//oynaya oynaya gelin cocuklar...
+
+        cumle=cumle.toUpperCase();
+        System.out.println(cumle);//OYNAYA OYNAYA GELİN COCUKLAR...
+        System.out.println(cumle);//OYNAYA OYNAYA GELİN COCUKLAR...
+
     }
 }

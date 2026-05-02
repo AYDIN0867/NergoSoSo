@@ -1,0 +1,15 @@
+package D14_MetodOlustur;
+
+public class C09_MetodKullan {
+
+    public static void main(String[] args) {
+
+        C02_MetodTekrarAsalMıYazdir.asalMiYazdir(43);
+        //6788909 asal mı
+
+        C02_MetodTekrarAsalMıYazdir.asalMiYazdir(67889099);//verilen 67889099 sayisi asal değildir
+        C02_MetodTekrarAsalMıYazdir.asalMiYazdir(987); //verilen 987 sayisi asal değildir
+
+
+    }
+}
