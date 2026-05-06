@@ -16,7 +16,6 @@ public class C09_MetodKullan {
                 "kan diye nedirden gelen içti su diye daldı derin derine");
         System.out.println("");
 
-        System.out.println(C05_IsmiDüzenleDondurMetodu.ismiDuzenleDondurMetodu("ramazan", "aydın"));//Ramazan AYDIN
-
+        System.out.println(C05_IsmiDüzenleDondurMetodu.ismiDuzenleDondurMetodu("burak", "tosun"));
     }
 }
