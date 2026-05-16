@@ -33,14 +33,33 @@ while (sayi<=10){
         System.out.println("while loop ile sonuc "+ toplam);
 
 //20 den 30 a kadar olan çift sayıların toplamıbulunuz
-
+int toplam1=0;
         for (int i = 20; i <=30 ; i++) {
 
+           if(i%2==0){
 
+               toplam1+=i;
+
+           }
 
         }
 
+        System.out.println("20 ila 30 arasındaaki sayıların çift sayıların toplamı : "+ toplam1);
 
+
+        int sayi1=20;
+        int toplam2=0;
+
+        while (sayi<=30){
+
+            if (sayi1%2==0){
+
+                toplam2+=sayi1;
+                sayi1++;
+            }
+        }
+
+        System.out.println("while loop ile 20 30 arası toplam "+ toplam2);
 
     }
 
